@@ -1,0 +1,10 @@
+ 'R-3m:H'                          : hrmg
+ 6.7084923 3.6082199  10.6655580      : a, b, c
+ 90.0     90.0     121.0              : bc, ac, ab
+ 1  1  1                              : ncell
+ .true.                               : primcell
+ 1                                    : nspecies
+ 'Hg'                                 : spsymb, spfname
+ 1                                    : nwpos
+ 0.0000    0.0000    0.0000           : wpos
+
