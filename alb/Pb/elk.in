@@ -1,31 +1,40 @@
 
 tasks
- 0
- 10
+  0
+  10
   20
 
-scale 
- 10.3
+spinpol
+  .true.
+
+spinorb
+  .true.
+
+nempty
+  8
+
+rgkmax
+  8.0
 
 avec
   0.0  0.5  0.5
   0.5  0.0  0.5
-  0.5  0.5  0.0    
+  0.5  0.5  0.0
 
-atoms
-   1                                    : nspecies
-'Pb.in'                                 : spfname
-   1                                    : natoms; atposl, bfcmt below
-    0.00000000    0.00000000    0.00000000    0.00000000  0.00000000  0.00000000
+scale
+  1
 
 sppath
   '../../../species/'
 
-ngridk
-  11 11 11
+atoms
+  1                                   : nspecies
+  'Pb.in'                             : spfname
+  1                                   : natoms
+  0.0  0.0  0.0    0.0  0.0  0.0      : atposl, bfcmt
 
-rgkmax
-  1
+ngridk
+  8  8  8
 
 plot1d
   7 200                               : nvp1d, npp1d
@@ -36,3 +45,5 @@ plot1d
   0.5   0.5   0.0
   0.5   0.25 -0.25
   0.5   0.0   0.0
+
+
