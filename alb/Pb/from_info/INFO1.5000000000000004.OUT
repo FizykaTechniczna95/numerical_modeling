@@ -1,0 +1,1542 @@
++----------------------------+
+| Elk version 4.0.15 started |
++----------------------------+
+
+Date (YYYY-MM-DD) : 2019-01-25
+Time (hh:mm:ss)   : 08:42:36
+
+All units are atomic (Hartree, Bohr, etc.)
+
++-------------------------------------------------+
+| Ground-state run starting from atomic densities |
++-------------------------------------------------+
+
+Lattice vectors :
+   0.000000000      0.5000000000      0.5000000000    
+  0.5000000000       0.000000000      0.5000000000    
+  0.5000000000      0.5000000000       0.000000000    
+
+Reciprocal lattice vectors :
+  -6.283185307       6.283185307       6.283185307    
+   6.283185307      -6.283185307       6.283185307    
+   6.283185307       6.283185307      -6.283185307    
+
+Unit cell volume      :   0.2500000000    
+Brillouin zone volume :    992.2008538    
+
+Species :    1 (Pb)
+ parameters loaded from : Pb.in
+ name : lead
+ nuclear charge    :   -82.00000000    
+ electronic charge :    82.00000000    
+ atomic mass :    377702.4940    
+ muffin-tin radius :   0.3285533906    
+ number of radial points in muffin-tin :    697
+ number on inner part of muffin-tin    :    469
+ atomic positions (lattice), magnetic fields (Cartesian) :
+   1 :   0.00000000  0.00000000  0.00000000    0.00000000  0.00000000  0.00000000
+
+Total number of atoms per unit cell :    1
+
+Spin treatment :
+ spin-polarised
+ spin-orbit coupling
+ global magnetic field (Cartesian) :    0.000000000       0.000000000       0.000000000    
+ non-collinear magnetisation
+
+Number of Bravais lattice symmetries :   48
+Number of crystal symmetries         :   48
+Crystal has inversion symmetry
+Real symmetric eigensolver will be used
+
+k-point grid :      8     8     8
+k-point offset :    0.000000000       0.000000000       0.000000000    
+k-point set is reduced with full crystal symmetry group
+Total number of k-points :       29
+
+Muffin-tin radius times maximum |G+k| :    8.000000000    
+ using average radius
+Maximum |G+k| for APW functions       :    24.34916281    
+Maximum (1/2)|G+k|^2                  :    296.4408648    
+Maximum |G| for potential and density :    48.69832662    
+Constant for pseudocharge density :    4
+Radial integration step length :    4
+
+G-vector grid sizes :     12    12    12
+Number of G-vectors :      531
+
+Maximum angular momentum used for
+ APW functions                      :    8
+ H and O matrix elements outer loop :    7
+ outer part of muffin-tin           :    7
+ inner part of muffin-tin           :    3
+
+Total nuclear charge    :   -82.00000000    
+Total core charge       :    68.00000000    
+Total valence charge    :    14.00000000    
+Total excess charge     :    0.000000000    
+Total electronic charge :    82.00000000    
+
+Effective Wigner radius, r_s :   0.8995235040E-01
+
+Number of empty states         :    8
+Total number of valence states :   32
+Total number of core states    :   68
+
+Total number of local-orbitals :   15
+
+Exchange-correlation functional :      3     0     0
+ Perdew-Wang/Ceperley-Alder, Phys. Rev. B 45, 13244 (1992)
+ Local density approximation (LDA)
+
+Smearing type :    3
+ Fermi-Dirac
+Smearing width :   0.1000000000E-02
+Effective electronic temperature (K) :    315.7750425    
+
+Mixing type :    1
+ Adaptive linear mixing
+
+Density and potential initialised from atomic data
+
++------------------------------+
+| Self-consistent loop started |
++------------------------------+
+
++--------------------+
+| Loop number :    1 |
++--------------------+
+
+Energies :
+ Fermi                       :      24.4203883265    
+ sum of eigenvalues          :     -5865.46276311    
+ electron kinetic            :      28456.6690013    
+ core electron kinetic       :      25280.4976841    
+ Coulomb                     :     -50072.0064409    
+ Coulomb potential           :     -33545.4302888    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -42526.4415139    
+ Hartree                     :      4490.50561257    
+ Madelung                    :     -33299.2912965    
+ xc potential                :     -776.701475619    
+ xc effective B-field        :    -0.149862651466E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -573.969112375    
+ correlation                 :     -10.6065194326    
+ electron entropic           :    -0.714303030033E-04
+ total energy                :     -22199.9131429    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    24.67827484    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2612898986E-02
+ from k-point      6 to k-point     22
+Estimated direct band gap   :   0.4392693241    
+ at k-point      6
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    14.92502303    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    67.07497697     (   35.23148177    )
+ total in muffin-tins        :    67.07497697    
+ total calculated charge     :    46.76944039    
+ total charge                :    82.00000000    
+ error                       :    35.23055961    
+
+Moments :
+ interstitial                :  -0.1452987263E-27  0.6606372672E-28 -0.3368645884E-28
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.8712690808E-23  0.4085441863E-22  0.3292780557E-22
+ total in muffin-tins        :   0.8712690808E-23  0.4085441863E-22  0.3292780557E-22
+ total moment                :   0.8712545509E-23  0.4085448470E-22  0.3292777189E-22
+
+Time (CPU seconds) :         4.34
+
++--------------------+
+| Loop number :    2 |
++--------------------+
+
+Energies :
+ Fermi                       :      26.1126511806    
+ sum of eigenvalues          :     -5789.58468892    
+ electron kinetic            :      28421.3098844    
+ core electron kinetic       :      25152.8162349    
+ Coulomb                     :     -49930.4668351    
+ Coulomb potential           :     -33436.4724460    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -42352.3201450    
+ Hartree                     :      4457.92384954    
+ Madelung                    :     -33212.2306121    
+ xc potential                :     -774.422127390    
+ xc effective B-field        :    -0.169620883594E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -572.263944861    
+ correlation                 :     -10.6007889531    
+ electron entropic           :    -0.620664139267E-04
+ total energy                :     -22092.0217465    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97586513    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2102840037E-01
+ from k-point      6 to k-point     22
+Estimated direct band gap   :   0.4926211446    
+ at k-point      6
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    15.07373272    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    66.92626728     (   35.47284456    )
+ total in muffin-tins        :    66.92626728    
+ total calculated charge     :    46.52805235    
+ total charge                :    82.00000000    
+ error                       :    35.47194765    
+
+Moments :
+ interstitial                :   0.4981941621E-25  0.8546758816E-27  0.2438119896E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.4957168692E-22  0.4367288915E-22 -0.2463505335E-22
+ total in muffin-tins        :  -0.4957168692E-22  0.4367288915E-22 -0.2463505335E-22
+ total moment                :  -0.4952186751E-22  0.4367374383E-22 -0.2439124136E-22
+
+RMS change in Kohn-Sham potential (target) :    14.81968012     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    107.8913964     (  0.1000000000E-03)
+
+Time (CPU seconds) :         6.00
+
++--------------------+
+| Loop number :    3 |
++--------------------+
+
+Energies :
+ Fermi                       :      28.2826192761    
+ sum of eigenvalues          :     -5692.55897028    
+ electron kinetic            :      28371.8742008    
+ core electron kinetic       :      25009.8358069    
+ Coulomb                     :     -49743.6836652    
+ Coulomb potential           :     -33293.0078067    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -42122.2184445    
+ Hartree                     :      4414.60531888    
+ Madelung                    :     -33097.1797618    
+ xc potential                :     -771.425364362    
+ xc effective B-field        :    -0.195487172737E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -570.022102638    
+ correlation                 :     -10.5932289279    
+ electron entropic           :    -0.620342125377E-04
+ total energy                :     -21952.4248580    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97345584    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.5468495419E-01
+ from k-point      6 to k-point     22
+Estimated direct band gap   :   0.5716209813    
+ at k-point      6
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    15.26948502    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    66.73051498     (   35.77692554    )
+ total in muffin-tins        :    66.73051498    
+ total calculated charge     :    46.22393554    
+ total charge                :    82.00000000    
+ error                       :    35.77606446    
+
+Moments :
+ interstitial                :  -0.4707024821E-25 -0.4383450442E-24 -0.2223345751E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.9170954822E-23  0.2768285815E-22  0.8237070764E-22
+ total in muffin-tins        :  -0.9170954822E-23  0.2768285815E-22  0.8237070764E-22
+ total moment                :  -0.9218025071E-23  0.2724451311E-22  0.8214837306E-22
+
+RMS change in Kohn-Sham potential (target) :    11.47260093     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    166.5697376     (  0.1000000000E-03)
+
+Time (CPU seconds) :         7.74
+
++--------------------+
+| Loop number :    4 |
++--------------------+
+
+Energies :
+ Fermi                       :      30.5577328929    
+ sum of eigenvalues          :     -5591.35337393    
+ electron kinetic            :      28316.2470178    
+ core electron kinetic       :      24874.7831760    
+ Coulomb                     :     -49543.1739437    
+ Coulomb potential           :     -33139.3815321    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41874.8252762    
+ Hartree                     :      4367.72187203    
+ Madelung                    :     -32973.4831777    
+ xc potential                :     -768.218859572    
+ xc effective B-field        :    -0.223332378480E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -567.623385274    
+ correlation                 :     -10.5850994997    
+ electron entropic           :    -0.621528333164E-04
+ total energy                :     -21805.1354729    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.98325202    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.4638626642E-01
+ from k-point     13 to k-point     22
+Estimated direct band gap   :   0.6687873884    
+ at k-point      6
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    15.48148674    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    66.51851326     (   36.09021998    )
+ total in muffin-tins        :    66.51851326    
+ total calculated charge     :    45.91059946    
+ total charge                :    82.00000000    
+ error                       :    36.08940054    
+
+Moments :
+ interstitial                :  -0.4384865125E-24 -0.8537350865E-24 -0.4114590042E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.1687410156E-23 -0.2851018855E-22 -0.7468428801E-22
+ total in muffin-tins        :   0.1687410156E-23 -0.2851018855E-22 -0.7468428801E-22
+ total moment                :   0.1248923643E-23 -0.2936392364E-22 -0.7509574701E-22
+
+RMS change in Kohn-Sham potential (target) :    7.967539018     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    188.9318195     (  0.1000000000E-03)
+
+Time (CPU seconds) :         9.50
+
++--------------------+
+| Loop number :    5 |
++--------------------+
+
+Energies :
+ Fermi                       :      32.6040296611    
+ sum of eigenvalues          :     -5501.11322872    
+ electron kinetic            :      28264.6219706    
+ core electron kinetic       :      24765.4992207    
+ Coulomb                     :     -49361.3806349    
+ Coulomb potential           :     -33000.4213450    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41650.1988456    
+ Hartree                     :      4324.88875028    
+ Madelung                    :     -32861.1699624    
+ xc potential                :     -765.313854291    
+ xc effective B-field        :    -0.248361130352E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -565.450248627    
+ correlation                 :     -10.5776873497    
+ electron entropic           :    -0.104500512645E-03
+ total energy                :     -21672.7867047    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    35.33450634    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.1500405220    
+ from k-point     14 to k-point     22
+Estimated direct band gap   :   0.2725810016    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    15.67863139    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    66.32136861     (   36.36770562    )
+ total in muffin-tins        :    66.32136861    
+ total calculated charge     :    45.63307464    
+ total charge                :    82.00000000    
+ error                       :    36.36692536    
+
+Moments :
+ interstitial                :  -0.7437338778E-24  0.6629399348E-24  0.1527703019E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.9109385059E-23 -0.3177291591E-22 -0.8287132990E-22
+ total in muffin-tins        :   0.9109385059E-23 -0.3177291591E-22 -0.8287132990E-22
+ total moment                :   0.8365651181E-23 -0.3110997598E-22 -0.8134362688E-22
+
+RMS change in Kohn-Sham potential (target) :    4.874652278     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    179.5817230     (  0.1000000000E-03)
+
+Time (CPU seconds) :        11.27
+
++--------------------+
+| Loop number :    6 |
++--------------------+
+
+Energies :
+ Fermi                       :      34.2037821747    
+ sum of eigenvalues          :     -5431.16922942    
+ electron kinetic            :      28225.7302699    
+ core electron kinetic       :      24690.2129253    
+ Coulomb                     :     -49221.6803737    
+ Coulomb potential           :     -32893.8260428    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41477.3936255    
+ Hartree                     :      4291.78379133    
+ Madelung                    :     -32774.7673523    
+ xc potential                :     -763.073456413    
+ xc effective B-field        :    -0.282072346165E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -563.774314565    
+ correlation                 :     -10.5719281259    
+ electron entropic           :    -0.632488806301E-04
+ total energy                :     -21570.2964098    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    22.16608354    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.6905857980E-02
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.3556508224    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    15.83698681    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    66.16301319     (   36.58231588    )
+ total in muffin-tins        :    66.16301319    
+ total calculated charge     :    45.41843097    
+ total charge                :    82.00000000    
+ error                       :    36.58156903    
+
+Moments :
+ interstitial                :  -0.1026777809E-25 -0.2930076939E-23  0.1531416768E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.3103293292E-22  0.1005535863E-22 -0.4444677655E-22
+ total in muffin-tins        :   0.3103293292E-22  0.1005535863E-22 -0.4444677655E-22
+ total moment                :   0.3102266514E-22  0.7125281687E-23 -0.4291535979E-22
+
+RMS change in Kohn-Sham potential (target) :    2.564160145     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    147.3857257     (  0.1000000000E-03)
+
+Time (CPU seconds) :        13.03
+
++--------------------+
+| Loop number :    7 |
++--------------------+
+
+Energies :
+ Fermi                       :      35.3048138203    
+ sum of eigenvalues          :     -5383.71883928    
+ electron kinetic            :      28202.8682783    
+ core electron kinetic       :      24647.1066975    
+ Coulomb                     :     -49131.2763726    
+ Coulomb potential           :     -32824.9808106    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41365.4308554    
+ Hartree                     :      4270.22502238    
+ Madelung                    :     -32718.7859673    
+ xc potential                :     -761.606306915    
+ xc effective B-field        :    -0.295423513158E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -562.676837551    
+ correlation                 :     -10.5681208504    
+ electron entropic           :    -0.620228222476E-04
+ total energy                :     -21501.6531147    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97275876    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.1445901357E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4105286331    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    15.94683948    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    66.05316052     (   36.72747913    )
+ total in muffin-tins        :    66.05316052    
+ total calculated charge     :    45.27324508    
+ total charge                :    82.00000000    
+ error                       :    36.72675492    
+
+Moments :
+ interstitial                :   0.3573020491E-23 -0.4269312658E-24  0.3710088275E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.3128041679E-23 -0.4560580351E-22  0.5550664564E-23
+ total in muffin-tins        :   0.3128041679E-23 -0.4560580351E-22  0.5550664564E-23
+ total moment                :   0.6701062170E-23 -0.4603273477E-22  0.9260752839E-23
+
+RMS change in Kohn-Sham potential (target) :    1.117496844     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    105.4897265     (  0.1000000000E-03)
+
+Time (CPU seconds) :        14.79
+
++--------------------+
+| Loop number :    8 |
++--------------------+
+
+Energies :
+ Fermi                       :      35.9751928041    
+ sum of eigenvalues          :     -5355.41104566    
+ electron kinetic            :      28193.5686972    
+ core electron kinetic       :      24627.6884601    
+ Coulomb                     :     -49082.8444219    
+ Coulomb potential           :     -32788.1797139    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41305.3680507    
+ Hartree                     :      4258.59416840    
+ Madelung                    :     -32688.7545649    
+ xc potential                :     -760.800028940    
+ xc effective B-field        :    -0.302793311629E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -562.073735755    
+ correlation                 :     -10.5660005405    
+ electron entropic           :    -0.620215609614E-04
+ total energy                :     -21461.9155230    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265659    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.1987294349E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4416407608    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.01253782    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.98746218     (   36.81307925    )
+ total in muffin-tins        :    65.98746218    
+ total calculated charge     :    45.18763197    
+ total charge                :    82.00000000    
+ error                       :    36.81236803    
+
+Moments :
+ interstitial                :   0.1941887166E-24 -0.4439043881E-23 -0.4502158025E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.7144117877E-23  0.6101246601E-22  0.5593992347E-22
+ total in muffin-tins        :   0.7144117877E-23  0.6101246601E-22  0.5593992347E-22
+ total moment                :   0.7338306593E-23  0.5657342213E-22  0.5143776544E-22
+
+RMS change in Kohn-Sham potential (target) :   0.3786511799     (  0.1000000000E-05)
+Absolute change in total energy (target)   :    66.11002337     (  0.1000000000E-03)
+
+Time (CPU seconds) :        16.54
+
++--------------------+
+| Loop number :    9 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.3383570977    
+ sum of eigenvalues          :     -5340.39403866    
+ electron kinetic            :      28192.4401314    
+ core electron kinetic       :      24621.8451536    
+ Coulomb                     :     -49062.0445460    
+ Coulomb potential           :     -32772.3985711    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41279.5494419    
+ Hartree                     :      4253.57543539    
+ Madelung                    :     -32675.8452605    
+ xc potential                :     -760.435598958    
+ xc effective B-field        :    -0.306514839925E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.801155509    
+ correlation                 :     -10.5650212663    
+ electron entropic           :    -0.620215536242E-04
+ total energy                :     -21441.9706534    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265612    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2308022938E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4568211557    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.04640362    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.95359638     (   36.85702137    )
+ total in muffin-tins        :    65.95359638    
+ total calculated charge     :    45.14368445    
+ total charge                :    82.00000000    
+ error                       :    36.85631555    
+
+Moments :
+ interstitial                :  -0.4028141005E-24 -0.3249720101E-23  0.3057942809E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.2091257138E-24 -0.3849607498E-22  0.1556050060E-22
+ total in muffin-tins        :   0.2091257138E-24 -0.3849607498E-22  0.1556050060E-22
+ total moment                :  -0.1936883867E-24 -0.4174579508E-22  0.1861844340E-22
+
+RMS change in Kohn-Sham potential (target) :   0.9346464435E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    36.47237539     (  0.1000000000E-03)
+
+Time (CPU seconds) :        18.30
+
++--------------------+
+| Loop number :   10 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.5163518728    
+ sum of eigenvalues          :     -5333.12082392    
+ electron kinetic            :      28194.5738280    
+ core electron kinetic       :      24621.7058542    
+ Coulomb                     :     -49055.3639749    
+ Coulomb potential           :     -32767.3901180    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41271.1967527    
+ Hartree                     :      4251.90331735    
+ Madelung                    :     -32671.6689159    
+ xc potential                :     -760.304533975    
+ xc effective B-field        :    -0.308167675655E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.703134664    
+ correlation                 :     -10.5646544164    
+ electron entropic           :    -0.620215533008E-04
+ total energy                :     -21433.0579979    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265609    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2469201153E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4631957276    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.06161742    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.93838258     (   36.87687437    )
+ total in muffin-tins        :    65.93838258    
+ total calculated charge     :    45.12382947    
+ total charge                :    82.00000000    
+ error                       :    36.87617053    
+
+Moments :
+ interstitial                :  -0.9887350089E-24 -0.2679969081E-23  0.2440040371E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.1781948414E-22 -0.1962575408E-23  0.6260605489E-24
+ total in muffin-tins        :   0.1781948414E-22 -0.1962575408E-23  0.6260605489E-24
+ total moment                :   0.1683074913E-22 -0.4642544490E-23  0.3066100920E-23
+
+RMS change in Kohn-Sham potential (target) :   0.3738195324E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    18.03074935     (  0.1000000000E-03)
+
+Time (CPU seconds) :        20.07
+
++--------------------+
+| Loop number :   11 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.5972910446    
+ sum of eigenvalues          :     -5329.90366663    
+ electron kinetic            :      28196.6984417    
+ core electron kinetic       :      24622.6457783    
+ Coulomb                     :     -49053.9810803    
+ Coulomb potential           :     -32766.3341856    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41269.4868959    
+ Hartree                     :      4251.57635515    
+ Madelung                    :     -32670.8139875    
+ xc potential                :     -760.267922785    
+ xc effective B-field        :    -0.308788431885E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.675760616    
+ correlation                 :     -10.5645429842    
+ electron entropic           :    -0.620215532366E-04
+ total energy                :     -21429.5230042    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2540228425E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4655039456    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.06800492    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.93199508     (   36.88574319    )
+ total in muffin-tins        :    65.93199508    
+ total calculated charge     :    45.11495991    
+ total charge                :    82.00000000    
+ error                       :    36.88504009    
+
+Moments :
+ interstitial                :  -0.9936203921E-24 -0.2357918003E-23 -0.4549970796E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.3405298254E-22  0.4847640493E-22  0.6911364484E-23
+ total in muffin-tins        :   0.3405298254E-22  0.4847640493E-22  0.6911364484E-23
+ total moment                :   0.3305936215E-22  0.4611848693E-22  0.6456367405E-23
+
+RMS change in Kohn-Sham potential (target) :   0.2770928653E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    8.042681116     (  0.1000000000E-03)
+
+Time (CPU seconds) :        21.82
+
++--------------------+
+| Loop number :   12 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6328156543    
+ sum of eigenvalues          :     -5328.36229327    
+ electron kinetic            :      28198.2121257    
+ core electron kinetic       :      24623.5507709    
+ Coulomb                     :     -49053.9923129    
+ Coulomb potential           :     -32766.3131923    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41269.5303544    
+ Hartree                     :      4251.60858103    
+ Madelung                    :     -32670.8357168    
+ xc potential                :     -760.261226601    
+ xc effective B-field        :    -0.308968780973E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.670757549    
+ correlation                 :     -10.5645177160    
+ electron entropic           :    -0.620215532175E-04
+ total energy                :     -21428.0155245    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2567179248E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4662249162    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07044218    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92955782     (   36.88938429    )
+ total in muffin-tins        :    65.92955782    
+ total calculated charge     :    45.11131846    
+ total charge                :    82.00000000    
+ error                       :    36.88868154    
+
+Moments :
+ interstitial                :  -0.1239351110E-23  0.2960536660E-23  0.4732802458E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.2054111839E-23  0.2991680258E-22  0.6518761573E-22
+ total in muffin-tins        :  -0.2054111839E-23  0.2991680258E-22  0.6518761573E-22
+ total moment                :  -0.3293462949E-23  0.3287733924E-22  0.6566089598E-22
+
+RMS change in Kohn-Sham potential (target) :   0.1796142796E-01 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    3.518149911     (  0.1000000000E-03)
+
+Time (CPU seconds) :        23.57
+
++--------------------+
+| Loop number :   13 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6480291415    
+ sum of eigenvalues          :     -5327.59038640    
+ electron kinetic            :      28199.1545256    
+ core electron kinetic       :      24624.1946847    
+ Coulomb                     :     -49054.2373010    
+ Coulomb potential           :     -32766.4827444    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41269.8507785    
+ Hartree                     :      4251.68401706    
+ Madelung                    :     -32670.9959288    
+ xc potential                :     -760.262167576    
+ xc effective B-field        :    -0.308992907736E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.671463982    
+ correlation                 :     -10.5645167136    
+ electron entropic           :    -0.620215532039E-04
+ total energy                :     -21427.3188181    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265606    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2575601150E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664056642    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07124615    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92875385     (   36.89068247    )
+ total in muffin-tins        :    65.92875385    
+ total calculated charge     :    45.11002008    
+ total charge                :    82.00000000    
+ error                       :    36.88997992    
+
+Moments :
+ interstitial                :   0.1049607781E-23  0.3089985243E-23 -0.5009551670E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.1583310150E-22 -0.6285927991E-22  0.5537301377E-22
+ total in muffin-tins        :   0.1583310150E-22 -0.6285927991E-22  0.5537301377E-22
+ total moment                :   0.1688270928E-22 -0.5976929467E-22  0.5036346210E-22
+
+RMS change in Kohn-Sham potential (target) :   0.9989876188E-02 (  0.1000000000E-05)
+Absolute change in total energy (target)   :    1.576243862     (  0.1000000000E-03)
+
+Time (CPU seconds) :        25.32
+
++--------------------+
+| Loop number :   14 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6544299268    
+ sum of eigenvalues          :     -5327.19015006    
+ electron kinetic            :      28199.6859321    
+ core electron kinetic       :      24624.5865087    
+ Coulomb                     :     -49054.4133663    
+ Coulomb potential           :     -32766.6122217    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.0734319    
+ Hartree                     :      4251.73060510    
+ Madelung                    :     -32671.1072555    
+ xc potential                :     -760.263860485    
+ xc effective B-field        :    -0.308977117453E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.672731280    
+ correlation                 :     -10.5645198057    
+ electron entropic           :    -0.620215532080E-04
+ total energy                :     -21426.9647473    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577513575E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664317282    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07144582    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92855418     (   36.89103603    )
+ total in muffin-tins        :    65.92855418    
+ total calculated charge     :    45.10966638    
+ total charge                :    82.00000000    
+ error                       :    36.89033362    
+
+Moments :
+ interstitial                :  -0.6466791160E-23 -0.9476686939E-24  0.9975103407E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.1534991185E-22  0.4733717660E-23 -0.4598992916E-22
+ total in muffin-tins        :  -0.1534991185E-22  0.4733717660E-23 -0.4598992916E-22
+ total moment                :  -0.2181670301E-22  0.3786048966E-23 -0.3601482575E-22
+
+RMS change in Kohn-Sham potential (target) :   0.4950827675E-02 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.7481317827     (  0.1000000000E-03)
+
+Time (CPU seconds) :        27.08
+
++--------------------+
+| Loop number :   15 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6570530491    
+ sum of eigenvalues          :     -5326.98354049    
+ electron kinetic            :      28199.9621740    
+ core electron kinetic       :      24624.8002032    
+ Coulomb                     :     -49054.5021823    
+ Coulomb potential           :     -32766.6807770    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.1825084    
+ Hartree                     :      4251.75086568    
+ Madelung                    :     -32671.1617938    
+ xc potential                :     -760.264937449    
+ xc effective B-field        :    -0.308959756138E-07
+ external B-field            :     -0.00000000000    
+ exchange                    :     -561.673537157    
+ correlation                 :     -10.5645222073    
+ electron entropic           :    -0.620215532084E-04
+ total energy                :     -21426.7781297    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577606753E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664246848    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07145689    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92854311     (   36.89106810    )
+ total in muffin-tins        :    65.92854311    
+ total calculated charge     :    45.10963420    
+ total charge                :    82.00000000    
+ error                       :    36.89036580    
+
+Moments :
+ interstitial                :   0.2282328904E-23  0.1273121496E-23 -0.1827761706E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.2744304792E-23 -0.1573714368E-22 -0.2425260812E-22
+ total in muffin-tins        :  -0.2744304792E-23 -0.1573714368E-22 -0.2425260812E-22
+ total moment                :  -0.4619758881E-24 -0.1446402218E-22 -0.2608036983E-22
+
+RMS change in Kohn-Sham potential (target) :   0.2225156221E-02 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.3736506134     (  0.1000000000E-03)
+
+Time (CPU seconds) :        28.83
+
++--------------------+
+| Loop number :   16 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6580786891    
+ sum of eigenvalues          :     -5326.88233400    
+ electron kinetic            :      28200.0942919    
+ core electron kinetic       :      24624.9054487    
+ Coulomb                     :     -49054.5394317    
+ Coulomb potential           :     -32766.7111610    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2266233    
+ Hartree                     :      4251.75773112    
+ Madelung                    :     -32671.1838512    
+ xc potential                :     -760.265464891    
+ xc effective B-field        :    -0.308948880176E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.673931743    
+ correlation                 :     -10.5645235028    
+ electron entropic           :    -0.620215532084E-04
+ total energy                :     -21426.6836570    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577390968E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664157040    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07142955    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92857045     (   36.89102600    )
+ total in muffin-tins        :    65.92857045    
+ total calculated charge     :    45.10967623    
+ total charge                :    82.00000000    
+ error                       :    36.89032377    
+
+Moments :
+ interstitial                :  -0.3662663139E-24  0.4133882881E-24 -0.4869711571E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.8217961239E-23 -0.5582037712E-22 -0.4236293627E-22
+ total in muffin-tins        :   0.8217961239E-23 -0.5582037712E-22 -0.4236293627E-22
+ total moment                :   0.7851694925E-23 -0.5540698883E-22 -0.4723264784E-22
+
+RMS change in Kohn-Sham potential (target) :   0.9101511427E-03 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.1878852674     (  0.1000000000E-03)
+
+Time (CPU seconds) :        30.59
+
++--------------------+
+| Loop number :   17 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6584540742    
+ sum of eigenvalues          :     -5326.83716180    
+ electron kinetic            :      28200.1515697    
+ core electron kinetic       :      24624.9517317    
+ Coulomb                     :     -49054.5529643    
+ Coulomb potential           :     -32766.7230487    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2418007    
+ Hartree                     :      4251.75937595    
+ Madelung                    :     -32671.1914399    
+ xc potential                :     -760.265682749    
+ xc effective B-field        :    -0.308943753726E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.674094696    
+ correlation                 :     -10.5645240739    
+ electron entropic           :    -0.620215532095E-04
+ total energy                :     -21426.6400753    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577234625E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664106261    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07140767    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92859233     (   36.89098866    )
+ total in muffin-tins        :    65.92859233    
+ total calculated charge     :    45.10971353    
+ total charge                :    82.00000000    
+ error                       :    36.89028647    
+
+Moments :
+ interstitial                :  -0.9758953508E-24  0.2770977990E-23 -0.1036869450E-22
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.1325032163E-22  0.3421768927E-22 -0.4194736507E-23
+ total in muffin-tins        :  -0.1325032163E-22  0.3421768927E-22 -0.4194736507E-23
+ total moment                :  -0.1422621698E-22  0.3698866726E-22 -0.1456343101E-22
+
+RMS change in Kohn-Sham potential (target) :   0.3420981772E-03 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.9055302190E-01 (  0.1000000000E-03)
+
+Time (CPU seconds) :        32.35
+
++--------------------+
+| Loop number :   18 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6585813337    
+ sum of eigenvalues          :     -5326.81925553    
+ electron kinetic            :      28200.1736439    
+ core electron kinetic       :      24624.9693675    
+ Coulomb                     :     -49054.5570801    
+ Coulomb potential           :     -32766.7271442    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2459369    
+ Hartree                     :      4251.75939638    
+ Madelung                    :     -32671.1935080    
+ xc potential                :     -760.265755267    
+ xc effective B-field        :    -0.308941887539E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.674148932    
+ correlation                 :     -10.5645242723    
+ electron entropic           :    -0.620215532101E-04
+ total energy                :     -21426.6221714    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577159012E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664087510    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139694    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860306     (   36.89096925    )
+ total in muffin-tins        :    65.92860306    
+ total calculated charge     :    45.10973291    
+ total charge                :    82.00000000    
+ error                       :    36.89026709    
+
+Moments :
+ interstitial                :  -0.2868942957E-23 -0.3592051798E-23  0.5487725990E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.1636092252E-22  0.2212844040E-24 -0.5622734987E-22
+ total in muffin-tins        :   0.1636092252E-22  0.2212844040E-24 -0.5622734987E-22
+ total moment                :   0.1349197957E-22 -0.3370767394E-23 -0.5073962388E-22
+
+RMS change in Kohn-Sham potential (target) :   0.1298099082E-03 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.4054218161E-01 (  0.1000000000E-03)
+
+Time (CPU seconds) :        34.12
+
++--------------------+
+| Loop number :   19 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6586209116    
+ sum of eigenvalues          :     -5326.81290116    
+ electron kinetic            :      28200.1809650    
+ core electron kinetic       :      24624.9748838    
+ Coulomb                     :     -49054.5577410    
+ Coulomb potential           :     -32766.7280964    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2463064    
+ Hartree                     :      4251.75910500    
+ Madelung                    :     -32671.1936928    
+ xc potential                :     -760.265769651    
+ xc effective B-field        :    -0.308941394376E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.674159686    
+ correlation                 :     -10.5645243152    
+ electron entropic           :    -0.620215532107E-04
+ total energy                :     -21426.6155221    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577130864E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664083702    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139319    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860681     (   36.89096201    )
+ total in muffin-tins        :    65.92860681    
+ total calculated charge     :    45.10974014    
+ total charge                :    82.00000000    
+ error                       :    36.89025986    
+
+Moments :
+ interstitial                :   0.3082660067E-23  0.3457272657E-23  0.8020485249E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.7631640494E-23  0.2897297184E-22  0.2566247850E-23
+ total in muffin-tins        :  -0.7631640494E-23  0.2897297184E-22  0.2566247850E-23
+ total moment                :  -0.4548980427E-23  0.3243024450E-22  0.3368296375E-23
+
+RMS change in Kohn-Sham potential (target) :   0.5764261051E-04 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.1678488109E-01 (  0.1000000000E-03)
+
+Time (CPU seconds) :        35.90
+
++--------------------+
+| Loop number :   20 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6586318482    
+ sum of eigenvalues          :     -5326.81085076    
+ electron kinetic            :      28200.1829878    
+ core electron kinetic       :      24624.9761597    
+ Coulomb                     :     -49054.5574694    
+ Coulomb potential           :     -32766.7280716    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2457880    
+ Hartree                     :      4251.75885823    
+ Madelung                    :     -32671.1934336    
+ xc potential                :     -760.265766975    
+ xc effective B-field        :    -0.308941347772E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.674157682    
+ correlation                 :     -10.5645243106    
+ electron entropic           :    -0.620215532074E-04
+ total energy                :     -21426.6132256    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577123119E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664084554    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139227    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860773     (   36.89095996    )
+ total in muffin-tins        :    65.92860773    
+ total calculated charge     :    45.10974220    
+ total charge                :    82.00000000    
+ error                       :    36.89025780    
+
+Moments :
+ interstitial                :  -0.4274257125E-24  0.2693945249E-23 -0.9025858702E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.4470776159E-22  0.4612089331E-22 -0.4039229463E-22
+ total in muffin-tins        :  -0.4470776159E-22  0.4612089331E-22 -0.4039229463E-22
+ total moment                :  -0.4513518730E-22  0.4881483856E-22 -0.4129488050E-22
+
+RMS change in Kohn-Sham potential (target) :   0.2723120716E-04 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.6492721772E-02 (  0.1000000000E-03)
+
+Time (CPU seconds) :        37.69
+
++--------------------+
+| Loop number :   21 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6586352815    
+ sum of eigenvalues          :     -5326.81018763    
+ electron kinetic            :      28200.1834201    
+ core electron kinetic       :      24624.9763262    
+ Coulomb                     :     -49054.5570838    
+ Coulomb potential           :     -32766.7278464    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2452420    
+ Hartree                     :      4251.75869784    
+ Madelung                    :     -32671.1931606    
+ xc potential                :     -760.265761352    
+ xc effective B-field        :    -0.308941397903E-07
+ external B-field            :     -0.00000000000    
+ exchange                    :     -561.674153476    
+ correlation                 :     -10.5645242968    
+ electron entropic           :    -0.620215532062E-04
+ total energy                :     -21426.6124034    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265606    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577121982E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664086285    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139224    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860776     (   36.89095961    )
+ total in muffin-tins        :    65.92860776    
+ total calculated charge     :    45.10974253    
+ total charge                :    82.00000000    
+ error                       :    36.89025747    
+
+Moments :
+ interstitial                :   0.4810177830E-23 -0.2283444095E-23 -0.8628779814E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :  -0.2655539191E-22 -0.1506345021E-22 -0.2711122173E-22
+ total in muffin-tins        :  -0.2655539191E-22 -0.1506345021E-22 -0.2711122173E-22
+ total moment                :  -0.2174521408E-22 -0.1734689430E-22 -0.2797409971E-22
+
+RMS change in Kohn-Sham potential (target) :   0.1139817796E-04 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.2445304133E-02 (  0.1000000000E-03)
+
+Time (CPU seconds) :        39.47
+
++--------------------+
+| Loop number :   22 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6586356404    
+ sum of eigenvalues          :     -5326.80999233    
+ electron kinetic            :      28200.1835166    
+ core electron kinetic       :      24624.9763312    
+ Coulomb                     :     -49054.5569225    
+ Coulomb potential           :     -32766.7277499    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2450159    
+ Hartree                     :      4251.75863300    
+ Madelung                    :     -32671.1930475    
+ xc potential                :     -760.265758972    
+ xc effective B-field        :    -0.308941433638E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.674151695    
+ correlation                 :     -10.5645242909    
+ electron entropic           :    -0.620215532072E-04
+ total energy                :     -21426.6121439    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577122327E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664087045    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139225    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860775     (   36.89095953    )
+ total in muffin-tins        :    65.92860775    
+ total calculated charge     :    45.10974262    
+ total charge                :    82.00000000    
+ error                       :    36.89025738    
+
+Moments :
+ interstitial                :   0.1973851058E-23 -0.2799130308E-23  0.6270922000E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.5509880340E-23 -0.8160076617E-23 -0.2333614488E-22
+ total in muffin-tins        :   0.5509880340E-23 -0.8160076617E-23 -0.2333614488E-22
+ total moment                :   0.7483731397E-23 -0.1095920692E-22 -0.1706522288E-22
+
+RMS change in Kohn-Sham potential (target) :   0.4351633914E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.8708705682E-03 (  0.1000000000E-03)
+
+Time (CPU seconds) :        41.40
+
++--------------------+
+| Loop number :   23 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6586352584    
+ sum of eigenvalues          :     -5326.80994331    
+ electron kinetic            :      28200.1835478    
+ core electron kinetic       :      24624.9763305    
+ Coulomb                     :     -49054.5568890    
+ Coulomb potential           :     -32766.7277326    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2449663    
+ Hartree                     :      4251.75861683    
+ Madelung                    :     -32671.1930227    
+ xc potential                :     -760.265758436    
+ xc effective B-field        :    -0.308941450985E-07
+ external B-field            :     -0.00000000000    
+ exchange                    :     -561.674151294    
+ correlation                 :     -10.5645242895    
+ electron entropic           :    -0.620215531995E-04
+ total energy                :     -21426.6120788    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265606    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577122751E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664087259    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139224    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860776     (   36.89095947    )
+ total in muffin-tins        :    65.92860776    
+ total calculated charge     :    45.10974269    
+ total charge                :    82.00000000    
+ error                       :    36.89025731    
+
+Moments :
+ interstitial                :  -0.1299700554E-23  0.1429707558E-23  0.1103882476E-23
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.6757654170E-24 -0.3393920923E-22 -0.2569380646E-22
+ total in muffin-tins        :   0.6757654170E-24 -0.3393920923E-22 -0.2569380646E-22
+ total moment                :  -0.6239351367E-24 -0.3250950167E-22 -0.2458992398E-22
+
+RMS change in Kohn-Sham potential (target) :   0.1579855429E-05 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.2827728895E-03 (  0.1000000000E-03)
+
+Time (CPU seconds) :        43.19
+
++--------------------+
+| Loop number :   24 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6586349560    
+ sum of eigenvalues          :     -5326.80993281    
+ electron kinetic            :      28200.1835585    
+ core electron kinetic       :      24624.9763303    
+ Coulomb                     :     -49054.5568864    
+ Coulomb potential           :     -32766.7277329    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2449608    
+ Hartree                     :      4251.75861393    
+ Madelung                    :     -32671.1930200    
+ xc potential                :     -760.265758386    
+ xc effective B-field        :    -0.308941458355E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.674151256    
+ correlation                 :     -10.5645242894    
+ electron entropic           :    -0.620215532085E-04
+ total energy                :     -21426.6120655    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577122938E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664087322    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139223    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860777     (   36.89095945    )
+ total in muffin-tins        :    65.92860777    
+ total calculated charge     :    45.10974271    
+ total charge                :    82.00000000    
+ error                       :    36.89025729    
+
+Moments :
+ interstitial                :  -0.9570158925E-24  0.3431446796E-23  0.8318631490E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.3634122520E-22 -0.2944926847E-22 -0.2024911696E-23
+ total in muffin-tins        :   0.3634122520E-22 -0.2944926847E-22 -0.2024911696E-23
+ total moment                :   0.3538420931E-22 -0.2601782168E-22 -0.1193048547E-23
+
+RMS change in Kohn-Sham potential (target) :   0.5507065468E-06 (  0.1000000000E-05)
+Absolute change in total energy (target)   :   0.8407448695E-04 (  0.1000000000E-03)
+
+Convergence targets achieved
+
+Time (CPU seconds) :        44.97
+
++--------------------+
+| Loop number :   25 |
++--------------------+
+
+Energies :
+ Fermi                       :      36.6586348266    
+ sum of eigenvalues          :     -5326.80993063    
+ electron kinetic            :      28200.1835617    
+ core electron kinetic       :      24624.9763302    
+ Coulomb                     :     -49054.5568869    
+ Coulomb potential           :     -32766.7277339    
+ nuclear-nuclear             :     -12036.0705396    
+ electron-nuclear            :     -41270.2449608    
+ Hartree                     :      4251.75861342    
+ Madelung                    :     -32671.1930200    
+ xc potential                :     -760.265758386    
+ xc effective B-field        :    -0.308941461119E-07
+ external B-field            :      0.00000000000    
+ exchange                    :     -561.674151257    
+ correlation                 :     -10.5645242894    
+ electron entropic           :    -0.620215532094E-04
+ total energy                :     -21426.6120628    
+ (external B-field energy excluded from total)
+
+Density of states at Fermi energy :    21.97265607    
+ (states/Hartree/unit cell)
+
+Estimated indirect band gap :   0.2577123134E-01
+ from k-point     11 to k-point     22
+Estimated direct band gap   :   0.4664087349    
+ at k-point     13
+
+Charges :
+ core                        :    68.00000000    
+ valence                     :    14.00000000    
+ interstitial                :    16.07139223    
+ muffin-tins (core leakage)
+  species :    1 (Pb)
+   atom    1                 :    65.92860777     (   36.89095944    )
+ total in muffin-tins        :    65.92860777    
+ total calculated charge     :    45.10974272    
+ total charge                :    82.00000000    
+ error                       :    36.89025728    
+
+Moments :
+ interstitial                :   0.1067972696E-23 -0.3056886153E-24 -0.2352576789E-24
+ muffin-tins
+  species :    1 (Pb)
+   atom    1                 :   0.1310710952E-22 -0.1524872307E-22  0.7002383596E-22
+ total in muffin-tins        :   0.1310710952E-22 -0.1524872307E-22  0.7002383596E-22
+ total moment                :   0.1417508221E-22 -0.1555441168E-22  0.6978857828E-22
+
++------------------------------+
+| Self-consistent loop stopped |
++------------------------------+
+
+Wrote STATE.OUT
+
+Timings (CPU seconds) :
+ initialisation                        :         2.91
+ Hamiltonian and overlap matrix set up :         1.73
+ first-variational eigenvalue equation :         1.24
+ second-variational calculation        :        27.30
+ charge density calculation            :        11.44
+ potential calculation                 :         2.14
+ total                                 :        46.76
+
++----------------------------+
+| Elk version 4.0.15 stopped |
++----------------------------+

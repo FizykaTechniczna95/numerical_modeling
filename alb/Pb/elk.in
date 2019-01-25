@@ -1,8 +1,7 @@
 
 tasks
   0
-  10
-  20
+
 
 spinpol
   .true.
@@ -21,8 +20,6 @@ avec
   0.5  0.0  0.5
   0.5  0.5  0.0
 
-scale
-  1
 
 sppath
   '../../../species/'
@@ -34,7 +31,7 @@ atoms
   0.0  0.0  0.0    0.0  0.0  0.0      : atposl, bfcmt
 
 ngridk
-  8  8  8
+  19 19  19
 
 plot1d
   7 200                               : nvp1d, npp1d

@@ -5,13 +5,13 @@ import numpy as np
 import linecache 
 
 a1, a2 = [], []
+vol, tote = [], []
 
-for k in np.arange(1, 2 , 0.01):
+for k in np.arange(1, 20 , 1):
 	template = """
 tasks
   0
-  10
-  20
+
 
 spinpol
   .true.
@@ -30,8 +30,6 @@ avec
   0.5  0.0  0.5
   0.5  0.5  0.0
 
-scale
-  {}
 
 sppath
   '../../../species/'
@@ -43,7 +41,7 @@ atoms
   0.0  0.0  0.0    0.0  0.0  0.0      : atposl, bfcmt
 
 ngridk
-  8  8  8
+  {} {}  {}
 
 plot1d
   7 200                               : nvp1d, npp1d
@@ -67,18 +65,20 @@ plot1d
 	print(a)	
 	a=sp.check_output('mv {}.png {}/BD{}{}{}.png'.format(argv[2][:-4],argv[1],k,k,k),shell=True)
 	print(a)	
-	#t.sleep(2)
-#	try:
-#		vol = linecache.getline("INFO.OUT",24).split()
-#		t_e = linecache.getline("INFO.OUT",1266).split()
-#		print("vol: {}\ntotal_energy: {}\n".format(vol[-1], t_e[-1]))
-#		a1.append(vol[-1])
-#		a2.append(t_e[-1])
-#	finally:
-#		print("--> {}".format(k))
-	a=sp.check_output('cp INFO.OUT info/INFO{}.OUT'.format(k),shell=True)
+	t.sleep(2)
+	try:
+		_file = open("INFO.OUT", 'r')
+		data = _file.readlines()
+		vol.append(data[23].split()[-1])
+		tote.append(data[-49].split()[-1])
+		_file.close()
+		print(vol)
+		print(tote)
+	finally:
+		print("--> {}".format(k))
+	a=sp.check_output('cp INFO.OUT {}/INFO{}.OUT'.format(argv[1], k),shell=True)
 
-#print("vol")
-#print(a1)
-#print("totalE")
-#print(a2)
+print("vol")
+print(vol)
+print("totalE")
+print(tote)
