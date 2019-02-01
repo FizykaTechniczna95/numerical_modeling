@@ -1,0 +1,32 @@
+
+tasks
+  0
+  20
+
+spinpol
+  .true.
+
+spinorb
+  .true.
+
+rgkmax
+  6.0
+
+avec
+  0.0  0.5  0.5
+  0.5  0.0  0.5
+  0.5  0.5  0.0
+
+sppath
+  '../../../species/'
+
+atoms
+  1                                   : nspecies
+  'Pb.in'                             : spfname
+  1                                   : natoms
+  495.0  495.0  495.0    0.0  0.0  0.0      : atposl, bfcmt
+
+ngridk
+  6 6 6
+
+
